@@ -78,8 +78,12 @@ nav a:hover { color: #ddd; }
 }
 
 .hero h1 {
- font-size: clamp(40px, 6vw, 68px);
-  max-width: 850px;
+  font-size: clamp(40px, 6vw, 72px);
+  max-width: 950px;
+}
+
+.keep-together {
+  white-space: nowrap;
 }
 
 .intro {
