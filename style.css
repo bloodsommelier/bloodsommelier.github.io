@@ -1,6 +1,7 @@
+```css
 @font-face {
   font-family: "Anybody Display";
-  src: url("./fonts/Anybody_SemiExpanded-Bold.ttf") format("truetype");
+  src: url("./fonts/Anybody_SemiExpanded-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -275,3 +276,4 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
+```
