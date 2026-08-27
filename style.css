@@ -40,13 +40,15 @@ body {
 .site-header {
   background: var(--black);
   border-bottom: 1px solid #292929;
+  height: 160px;
+  overflow: hidden;
 }
 
 .header-inner {
   max-width: 1180px;
+  height: 160px;
   margin: auto;
-  min-height: 60px;
-  padding: 5px 28px;
+  padding: 0 28px;
   display: flex;
   align-items: center;
   justify-content: space-between;
