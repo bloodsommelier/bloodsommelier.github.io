@@ -28,7 +28,7 @@ body {
   margin: 0;
   background: var(--white);
   color: var(--black);
-  font-family: "Libre Baskerville", Georgia, serif;
+  font-family: "Bahnschrift", Arial, sans-serif;
 }
 
 .site-header {
