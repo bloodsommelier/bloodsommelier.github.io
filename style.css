@@ -26,8 +26,8 @@ body {
 .header-inner {
   max-width: 1180px;
   margin: auto;
-  min-height: 80px;
-  padding: 14px 28px;
+  min-height: 50px;
+  padding: 5px 28px;
   display: flex;
   align-items: center;
   justify-content: space-between;
