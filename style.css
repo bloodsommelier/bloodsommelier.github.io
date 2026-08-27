@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Anybody";
+  font-family: "Anybody Display";
   src: url("./fonts/Anybody_SemiExpanded-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "Bahnschrift";
+  font-family: "Bahnschrift Custom";
   src: url("./fonts/bahnschrift.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
