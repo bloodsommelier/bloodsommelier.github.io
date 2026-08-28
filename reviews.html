@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reviews — Blood Sommelier</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header class="site-header"><div class="header-inner"><a class="brand" href="index.html"><img src="BLOOD_SOMMELIER_LOGO.png" alt="Blood Sommelier"></a>
+<nav><a href="reviews.html">Reviews</a><a href="reviews.html">Taste</a><a href="index.html#about">About</a></nav></div></header>
+<main><section class="page-intro"><p class="eyebrow">THE BLOOD SOMMELIER ARCHIVE</p><h1>Reviews</h1><p>Films tasted, judged and occasionally condemned.</p></section>
+<section class="section reviews-section"><div class="filter-bar">
+<button data-filter="all" class="active">ALL</button><button data-filter="sov">SOV</button><button data-filter="direct-to-video">DIRECT-TO-VIDEO</button><button data-filter="films">FILMS</button><button data-filter="european">EUROPEAN</button></div>
+<div id="review-grid" class="review-grid">
+<article class="review-card" data-category="sov films"><div class="card-placeholder">FIRST<br>TASTING<br>COMING SOON</div><div class="card-body"><p class="meta">SOV · FILMS</p><h2>First tasting coming soon.</h2><p>The cellar is being stocked.</p></div></article>
+</div><p id="no-results" class="no-results" hidden>No films found in this taste.</p></section></main>
+<footer><p>BLOOD SOMMELIER</p><p>Trash Video & Cinema Critic</p></footer>
+<script>
+const buttons=document.querySelectorAll("[data-filter]"),cards=document.querySelectorAll(".review-card"),noResults=document.getElementById("no-results");
+function applyFilter(filter){let visible=0;cards.forEach(card=>{let show=filter==="all"||card.dataset.category.split(" ").includes(filter);card.hidden=!show;if(show)visible++;});
+noResults.hidden=visible!==0;buttons.forEach(b=>b.classList.toggle("active",b.dataset.filter===filter));
+history.replaceState(null,"",filter==="all"?"reviews.html":"reviews.html?category="+filter);}
+buttons.forEach(b=>b.addEventListener("click",()=>applyFilter(b.dataset.filter)));
+const initial=new URLSearchParams(location.search).get("category")||"all";applyFilter([...buttons].some(b=>b.dataset.filter===initial)?initial:"all");
+</script></body></html>
