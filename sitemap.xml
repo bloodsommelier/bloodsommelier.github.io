@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://bloodsommelier.github.io/</loc>
+  </url>
+  <url>
+    <loc>https://bloodsommelier.github.io/reviews.html</loc>
+  </url>
+  <url>
+    <loc>https://bloodsommelier.github.io/reviews/camp-blood-1999.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bloodsommelier.github.io/reviews/camp-blood-1999.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bloodsommelier.github.io/reviews/camp-blood-1999-pt.html"/>
+  </url>
+  <url>
+    <loc>https://bloodsommelier.github.io/reviews/camp-blood-1999-pt.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bloodsommelier.github.io/reviews/camp-blood-1999.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bloodsommelier.github.io/reviews/camp-blood-1999-pt.html"/>
+  </url>
+  <url>
+    <loc>https://bloodsommelier.github.io/reviews/skinner-1993.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bloodsommelier.github.io/reviews/skinner-1993.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bloodsommelier.github.io/reviews/skinner-1993-pt.html"/>
+  </url>
+  <url>
+    <loc>https://bloodsommelier.github.io/reviews/skinner-1993-pt.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://bloodsommelier.github.io/reviews/skinner-1993.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://bloodsommelier.github.io/reviews/skinner-1993-pt.html"/>
+  </url>
+</urlset>
